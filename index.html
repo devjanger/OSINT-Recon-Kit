@@ -169,6 +169,137 @@
 
         <div class="notification" id="notification"></div>
 
+        <h2 class="category-title">🎯 Google Dorking</h2>
+        <div class="tools-grid">
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+filetype:pdf+OR+filetype:doc+OR+filetype:docx+OR+filetype:xls+OR+filetype:xlsx+OR+filetype:ppt+OR+filetype:pptx">
+                <div class="tool-content">
+                    <div class="tool-icon">📁</div>
+                    <div class="tool-name">문서 파일 검색</div>
+                    <div class="tool-desc">PDF, Word, Excel, PPT 통합 검색</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+filetype:log">
+                <div class="tool-content">
+                    <div class="tool-icon">📋</div>
+                    <div class="tool-name">로그 파일 검색</div>
+                    <div class="tool-desc">노출된 로그 파일 찾기</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+filetype:sql">
+                <div class="tool-content">
+                    <div class="tool-icon">💾</div>
+                    <div class="tool-name">SQL 파일 검색</div>
+                    <div class="tool-desc">데이터베이스 덤프 찾기</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+filetype:txt+OR+filetype:csv">
+                <div class="tool-content">
+                    <div class="tool-icon">📃</div>
+                    <div class="tool-name">텍스트/데이터 파일</div>
+                    <div class="tool-desc">TXT, CSV 파일 찾기</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+filetype:env+OR+ext:conf+OR+ext:config+OR+ext:cfg">
+                <div class="tool-content">
+                    <div class="tool-icon">⚙️</div>
+                    <div class="tool-name">설정 파일 검색</div>
+                    <div class="tool-desc">.env, config 파일 찾기</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+filetype:xml+OR+filetype:json">
+                <div class="tool-content">
+                    <div class="tool-icon">🗂️</div>
+                    <div class="tool-name">구조화 데이터</div>
+                    <div class="tool-desc">XML, JSON 파일 찾기</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+filetype:bak+OR+filetype:old+OR+filetype:backup">
+                <div class="tool-content">
+                    <div class="tool-icon">💿</div>
+                    <div class="tool-name">백업 파일 검색</div>
+                    <div class="tool-desc">BAK, OLD 백업 파일 찾기</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+filetype:zip+OR+filetype:rar+OR+filetype:tar+OR+filetype:gz">
+                <div class="tool-content">
+                    <div class="tool-icon">🗜️</div>
+                    <div class="tool-name">압축 파일 검색</div>
+                    <div class="tool-desc">ZIP, RAR, TAR 파일 찾기</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+inurl:admin+OR+inurl:login+OR+inurl:dashboard">
+                <div class="tool-content">
+                    <div class="tool-icon">🔑</div>
+                    <div class="tool-name">관리자 페이지 검색</div>
+                    <div class="tool-desc">로그인/관리 페이지 찾기</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+inurl:backup+OR+inurl:old+OR+inurl:archive">
+                <div class="tool-content">
+                    <div class="tool-icon">🗄️</div>
+                    <div class="tool-name">백업/구버전 검색</div>
+                    <div class="tool-desc">백업 및 아카이브 페이지</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+intitle:index.of">
+                <div class="tool-content">
+                    <div class="tool-icon">📂</div>
+                    <div class="tool-name">디렉토리 리스팅</div>
+                    <div class="tool-desc">노출된 디렉토리 찾기</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+intext:password+OR+intext:username+OR+intext:credential">
+                <div class="tool-content">
+                    <div class="tool-icon">🔐</div>
+                    <div class="tool-name">자격증명 검색</div>
+                    <div class="tool-desc">패스워드/유저명 포함 페이지</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+inurl:wp-content+OR+inurl:wp-includes">
+                <div class="tool-content">
+                    <div class="tool-icon">📰</div>
+                    <div class="tool-name">WordPress 검색</div>
+                    <div class="tool-desc">워드프레스 관련 파일</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+ext:php+inurl:config">
+                <div class="tool-content">
+                    <div class="tool-icon">⚡</div>
+                    <div class="tool-name">PHP Config 검색</div>
+                    <div class="tool-desc">config.php 등 설정 파일</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+intext:%22api+key%22+OR+intext:%22api_key%22+OR+intext:%22apikey%22">
+                <div class="tool-content">
+                    <div class="tool-icon">🔑</div>
+                    <div class="tool-name">API Key 검색</div>
+                    <div class="tool-desc">노출된 API 키 찾기</div>
+                </div>
+            </div>
+
+            <div class="tool-card" data-url="https://www.google.com/search?q=site:{{domain}}+inurl:shell+OR+inurl:backdoor+OR+inurl:r57+OR+inurl:c99">
+                <div class="tool-content">
+                    <div class="tool-icon">🚨</div>
+                    <div class="tool-name">웹쉘 검색</div>
+                    <div class="tool-desc">잠재적 웹쉘 찾기</div>
+                </div>
+            </div>
+        </div>
+
         <h2 class="category-title">🔍 정보 수집</h2>
         <div class="tools-grid">
             <div class="tool-card" data-url="https://web.archive.org/web/*/{{domain}}">
@@ -402,8 +533,6 @@
 
                 // http:// 또는 https:// 제거
                 domain = domain.replace(/^https?:\/\//, '');
-                // www. 제거 (선택사항)
-                // domain = domain.replace(/^www\./, '');
                 // 경로 제거
                 domain = domain.split('/')[0];
 
@@ -423,8 +552,4 @@
         });
     </script>
 </body>
-
 </html>
-
-
-
